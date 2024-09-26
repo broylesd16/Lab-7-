@@ -1,0 +1,80 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #333;
+    background-image: url(Rebellion.webp);
+    background-size: cover;
+    color: white;
+    padding: 20% 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+main {
+    padding: 20px;
+    background-image: url(stars.webp);
+}
+
+.about-me, .projects, .collections {
+    background-color: rgba(240,248,255, 0.8);
+    padding: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 8px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.projects {
+    background-color: rgba(139, 44, 44, 0.8);
+}
+
+.collections {
+    background-image: url('starwars.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5); /* subtle overlay */
+    background-blend-mode: overlay;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: rgba(0, 123, 167, 1);
+}
